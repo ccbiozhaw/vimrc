@@ -8,11 +8,4 @@ do
     ln -s ~/dotfiles/vimrc/$f ~/.vim/plugin/$f
 done
 
-
-
-
-
-
-
-
-
+rm -rf ~/.vim/plugin/find
