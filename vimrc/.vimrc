@@ -23,13 +23,14 @@ colorscheme gruvbox
 let mapleader = " "
 
 imap jk <Esc>
-inoremap " ""<left>
-inoremap ' ''<left>
-inoremap ( ()<left>
-inoremap [ []<left>
-inoremap { {}<left>
-inoremap {<CR> {<CR>}<ESC>O
-inoremap {;<CR> {<CR>};<ESC>O
+
+" noremap " ""<left>
+" noremap ' ''<left>
+" noremap ( ()<left>
+" noremap [ []<left>
+" noremap { {}<left>
+" noremap {<CR> {<CR>}<ESC>O
+" noremap {;<CR> {<CR>};<ESC>O
 
 nnoremap <leader>w <c-w>
 nnoremap <leader>o <c-o>
