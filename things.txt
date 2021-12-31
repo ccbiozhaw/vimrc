@@ -1,0 +1,14 @@
+// remove jupyter lab ctrl b for tmux
+
+{
+    "shortcuts": [
+        {
+            "command": "application:toggle-left-area",
+            "keys": [
+                "Accel B"
+            ],
+            "selector": "body",
+            "disabled" : true
+        }
+    ]
+}
