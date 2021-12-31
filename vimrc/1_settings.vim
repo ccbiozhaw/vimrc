@@ -31,3 +31,8 @@ inoremap { {}<left>
 inoremap {<CR> {<CR>}<ESC>O
 inoremap {;<CR> {<CR>};<ESC>O
 
+nnoremap <leader>w <c-w>
+nnoremap <leader>o <c-o>
+nnoremap <leader>p <c-i>
+nnoremap <leader>v <c-v>
+
