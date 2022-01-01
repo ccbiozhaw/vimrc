@@ -1,5 +1,3 @@
-// remove jupyter lab ctrl b for tmux
-
 {
     "shortcuts": [
         {
@@ -9,6 +7,21 @@
             ],
             "selector": "body",
             "disabled" : true
-        }
+        },
+        
+        {
+            "command": "application:activate-next-tab",
+            "keys": [
+                "Ctrl Shift L"
+            ],
+            "selector": "body"
+        },
+        {
+            "command": "application:activate-previous-tab",
+            "keys": [
+                "Ctrl Shift H"
+            ],
+            "selector": "body"
+        },
     ]
 }
