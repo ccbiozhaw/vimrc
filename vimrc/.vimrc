@@ -36,4 +36,8 @@ nnoremap <leader>w <c-w>
 nnoremap <leader>o <c-o>
 nnoremap <leader>p <c-i>
 nnoremap <leader>v <c-v>
+nnoremap <leader>ü <c-^>
+nnoremap <leader>pv :wincmd v<bar> :Ex <bar> :vertical resize 30<CR>
 
+map gn :bn<cr>
+map gp :bp<cr>
