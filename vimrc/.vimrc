@@ -10,6 +10,7 @@ set hidden
 set noerrorbells
 set scrolloff=8
 set signcolumn=yes
+set background=dark
 
 call plug#begin('~/.vim/plugged')
 Plug 'morhetz/gruvbox'
