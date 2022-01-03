@@ -32,3 +32,14 @@
         }
     ]
 }
+
+
+
+{
+    "preferences": {
+        "default_formatter": {
+            "python": "autopep8",
+            "R": "styler"
+        }
+    }
+}
