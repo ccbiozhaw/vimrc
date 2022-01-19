@@ -12,16 +12,11 @@ set scrolloff=8
 set signcolumn=yes
 set background=dark
 
-set nocompatible
-filetype plugin on
-syntax on
-
 call plug#begin('~/.vim/plugged')
 Plug 'morhetz/gruvbox'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'junegunn/fzf', {'do' : { -> fzf#install()}}
 Plug 'junegunn/fzf.vim'
-Plug 'vimwiki/vimwiki'
 call plug#end()
 
 colorscheme gruvbox
