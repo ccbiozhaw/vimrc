@@ -33,8 +33,6 @@
     ]
 }
 
-
-
 {
     "preferences": {
         "default_formatter": {
