@@ -12,11 +12,16 @@ set scrolloff=8
 set signcolumn=yes
 set background=dark
 
+set nocompatible
+filetype plugin on
+syntax on
+
 call plug#begin('~/.vim/plugged')
 Plug 'morhetz/gruvbox'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'junegunn/fzf', {'do' : { -> fzf#install()}}
 Plug 'junegunn/fzf.vim'
+Plug 'vimwiki/vimwiki'
 call plug#end()
 
 colorscheme gruvbox
@@ -33,7 +38,7 @@ imap jk <Esc>
 " noremap {<CR> {<CR>}<ESC>O
 " noremap {;<CR> {<CR>};<ESC>O
 
-nnoremap <leader>w <c-w>
+nnoremap <leader>r <c-w>
 nnoremap <leader>o <c-o>
 nnoremap <leader>p <c-i>
 nnoremap <leader>v <c-v>
