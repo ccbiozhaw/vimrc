@@ -13,7 +13,6 @@ set signcolumn=yes
 set background=dark
 
 call plug#begin('~/.vim/plugged')
-Plug 'tribela/vim-transparent'
 Plug 'morhetz/gruvbox'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'junegunn/fzf', {'do' : { -> fzf#install()}}
