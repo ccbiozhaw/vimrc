@@ -13,6 +13,7 @@ set signcolumn=yes
 set background=dark
 
 call plug#begin('~/.vim/plugged')
+Plug 'vim-airline/vim-airline'
 Plug 'tribela/vim-transparent'
 Plug 'morhetz/gruvbox'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}

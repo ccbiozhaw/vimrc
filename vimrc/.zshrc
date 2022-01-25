@@ -1,4 +1,4 @@
-# export PATH=/home/david/anaconda3/bin:$PATH
+export PATH=/home/david/anaconda3/bin:$PATH
 
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
@@ -132,5 +132,4 @@ fi
 unset __conda_setup
 # <<< conda initialize <<<
 
-
-bindkey '^I' autosuggest-accept
+bindkey '^ ' autosuggest-accept
