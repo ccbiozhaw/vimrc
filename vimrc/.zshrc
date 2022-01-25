@@ -1,4 +1,4 @@
-export PATH=/home/david/anaconda3/bin:$PATH
+# export PATH=/home/david/anaconda3/bin:$PATH
 
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
@@ -119,17 +119,17 @@ source $ZSH/oh-my-zsh.sh
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
-__conda_setup="$('/home/patc/miniconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
+__conda_setup="$('/home/david/miniconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
 if [ $? -eq 0 ]; then
     eval "$__conda_setup"
 else
-    if [ -f "/home/patc/miniconda3/etc/profile.d/conda.sh" ]; then
-        . "/home/patc/miniconda3/etc/profile.d/conda.sh"
+    if [ -f "/home/david/miniconda3/etc/profile.d/conda.sh" ]; then
+        . "/home/david/miniconda3/etc/profile.d/conda.sh"
     else
-        export PATH="/home/patc/miniconda3/bin:$PATH"
+        export PATH="/home/david/miniconda3/bin:$PATH"
     fi
 fi
 unset __conda_setup
 # <<< conda initialize <<<
 
-bindkey '^ ' autosuggest-accept
+# bindkey '^ ' autosuggest-accept

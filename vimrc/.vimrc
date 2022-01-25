@@ -16,7 +16,7 @@ set noshowmode
 
 call plug#begin('~/.vim/plugged')
 Plug 'vim-airline/vim-airline'
-Plug 'tribela/vim-transparent'
+" Plug 'tribela/vim-transparent'
 Plug 'morhetz/gruvbox'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'junegunn/fzf', {'do' : { -> fzf#install()}}
@@ -35,6 +35,9 @@ nnoremap <leader>p <c-i>
 nnoremap <leader>v <c-v>
 nnoremap <leader>ü <c-^>
 nnoremap <leader>pv :wincmd v<bar> :Ex <bar> :vertical resize 30<CR>
+nnoremap <leader>ff :Files<CR>
+nnoremap <leader>fb :Buffers<CR>
+nnoremap <leader>fd :bd<CR>
 
 map gn :bn<cr>
 map gp :bp<cr>
