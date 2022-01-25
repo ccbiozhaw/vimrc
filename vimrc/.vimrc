@@ -11,6 +11,8 @@ set noerrorbells
 set scrolloff=8
 set signcolumn=yes
 set background=dark
+set cursorline
+set noshowmode 
 
 call plug#begin('~/.vim/plugged')
 Plug 'vim-airline/vim-airline'
@@ -26,14 +28,6 @@ colorscheme gruvbox
 let mapleader = " "
 
 imap jk <Esc>
-
-" noremap " ""<left>
-" noremap ' ''<left>
-" noremap ( ()<left>
-" noremap [ []<left>
-" noremap { {}<left>
-" noremap {<CR> {<CR>}<ESC>O
-" noremap {;<CR> {<CR>};<ESC>O
 
 nnoremap <leader>r <c-w>
 nnoremap <leader>o <c-o>
