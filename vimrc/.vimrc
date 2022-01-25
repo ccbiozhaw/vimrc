@@ -11,8 +11,13 @@ set noerrorbells
 set scrolloff=8
 set signcolumn=yes
 set background=dark
+set cursorline
+set noshowmode 
 
 call plug#begin('~/.vim/plugged')
+" Plug 'vim-scripts/HTML-AutoCloseTag'
+Plug 'vim-airline/vim-airline'
+" Plug 'tribela/vim-transparent'
 Plug 'morhetz/gruvbox'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'junegunn/fzf', {'do' : { -> fzf#install()}}
@@ -24,14 +29,6 @@ colorscheme gruvbox
 let mapleader = " "
 
 imap jk <Esc>
-
-" noremap " ""<left>
-" noremap ' ''<left>
-" noremap ( ()<left>
-" noremap [ []<left>
-" noremap { {}<left>
-" noremap {<CR> {<CR>}<ESC>O
-" noremap {;<CR> {<CR>};<ESC>O
 
 nnoremap <leader>r <c-w>
 nnoremap <leader>o <c-o>
