@@ -16,6 +16,9 @@ set noshowmode
 
 call plug#begin('~/.vim/plugged')
 Plug 'vim-airline/vim-airline'
+" Plug 'tribela/vim-transparent'
+Plug 'tpope/vim-commentary'
+Plug 'alvan/vim-closetag'
 Plug 'morhetz/gruvbox'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'junegunn/fzf', {'do' : { -> fzf#install()}}
