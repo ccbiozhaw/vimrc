@@ -30,6 +30,7 @@ colorscheme gruvbox
 let mapleader = " "
 
 imap jk <Esc>
+imap kj <Esc>
 
 nnoremap <leader>r <c-w>
 nnoremap <leader>o <c-o>
