@@ -15,8 +15,9 @@ set cursorline
 set noshowmode 
 
 call plug#begin('~/.vim/plugged')
+Plug 'pangloss/vim-javascript'
 Plug 'vim-airline/vim-airline'
-" Plug 'tpenguinltg/vim-closing-brackets'
+Plug 'tpenguinltg/vim-closing-brackets'
 Plug 'tpope/vim-surround'
 " Plug 'tribela/vim-transparent'
 Plug 'tpope/vim-commentary'
