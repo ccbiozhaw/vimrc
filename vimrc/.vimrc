@@ -16,6 +16,8 @@ set noshowmode
 
 call plug#begin('~/.vim/plugged')
 Plug 'vim-airline/vim-airline'
+" Plug 'tpenguinltg/vim-closing-brackets'
+Plug 'tpope/vim-surround'
 " Plug 'tribela/vim-transparent'
 Plug 'tpope/vim-commentary'
 Plug 'alvan/vim-closetag'
